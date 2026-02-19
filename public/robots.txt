@@ -1,0 +1,13 @@
+# robots.txt - ZAS Ticketing
+# Permite a todos los buscadores indexar el sitio
+
+User-agent: *
+Allow: /
+Disallow: /private/
+Disallow: /.well-known/
+
+# Sitemaps
+Sitemap: https://zas.com.hn/sitemap.xml
+
+# Crawl-delay en segundos (opcional, para buscadores respetuosos)
+Crawl-delay: 1
